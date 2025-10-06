@@ -19,7 +19,13 @@ Will draw later
 | Failure Detection       | Gossip Protocol          |
 | Memory       | Memory Cache & SSTables          |
 
+# Task
+- Incorporate WAL
+- Implement Memtable
+- Implement SSTable
+
 ## Write Path
+Created Durability with write-ahead log (WAL)
 Will write the ones based on Cassandra
 
 ## Read Path
